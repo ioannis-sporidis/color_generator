@@ -6,7 +6,7 @@ import List from './components/ColorList';
 const App = () => {
   const [color, setColor] = useState('');
   const [error, setError] = useState(false);
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(new Values('#fcf003').all(10));
 
   const submitHandler = e => {
     e.preventDefault();
