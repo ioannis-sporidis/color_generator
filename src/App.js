@@ -9,15 +9,27 @@ const App = () => {
 
   const submitHandler = e => {
     e.preventDefault();
-    console.log('submitted');
+    try {
+      let colors = new Values(color).all(10);
+      console.log(colors);
+    } catch (error) {
+      setError(true);
+      console.log(error);
+    }
   };
 
   const onChangeHandler = e => {
     setColor(e.target.value);
   };
+
   return (
     <>
-      <Form onSubmit={submitHandler} value={color} onChange={onChangeHandler} />
+      <Form
+        onSubmit={submitHandler}
+        value={color}
+        onChange={onChangeHandler}
+        className={`${error ? 'error' : null}`}
+      />
     </>
   );
 };

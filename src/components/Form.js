@@ -1,4 +1,4 @@
-const Form = ({ onSubmit, value, onChange }) => {
+const Form = ({ onSubmit, value, onChange, className }) => {
   return (
     <section className='container'>
       <h3>color generator</h3>
@@ -7,7 +7,8 @@ const Form = ({ onSubmit, value, onChange }) => {
           type='text'
           value={value}
           onChange={onChange}
-          placeholder='#fcf003'></input>
+          placeholder='#fcf003'
+          className={className}></input>
         <button className='btn' type='submit'>
           submit
         </button>
