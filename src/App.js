@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Values from 'values.js';
 import Form from './components/Form';
+import List from './components/ColorList';
 
 const App = () => {
   const [color, setColor] = useState('');
@@ -11,9 +12,12 @@ const App = () => {
     e.preventDefault();
     try {
       let colors = new Values(color).all(10);
-      console.log(colors);
+      setList(colors);
+      setError(false);
+      setColor('');
     } catch (error) {
       setError(true);
+      setColor('');
       console.log(error);
     }
   };
@@ -30,6 +34,7 @@ const App = () => {
         onChange={onChangeHandler}
         className={`${error ? 'error' : null}`}
       />
+      <List list={list} />
     </>
   );
 };
