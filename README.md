@@ -1,13 +1,12 @@
 # Color Generator
 
-https://ioannis-sporidis.github.io/color_generator/
+Click [here](https://ioannis-sporidis.github.io/ra-hacker-news/) to check out the app
 
-## Library Used:
+## Dependencies
 
-[values.js](https://github.com/noeldelgado/values.js)
+- [React](https://reactjs.org/)
+- [NPM values.js](https://noeldelgado.github.io/values.js/)
+- [NPM gh-pages](https://www.npmjs.com/package/gh-pages)
 
-
-## Next Steps:
-
-- Use Material.UI.
-- Add functionality where the user can choose how many colors they want to display.
+## Next Steps
+- Use Material-UI.
