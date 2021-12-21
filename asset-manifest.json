@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/color_generator/static/css/main.29fb400f.chunk.css",
-    "main.js": "/color_generator/static/js/main.f3263945.chunk.js",
-    "main.js.map": "/color_generator/static/js/main.f3263945.chunk.js.map",
-    "runtime-main.js": "/color_generator/static/js/runtime-main.06e54908.js",
-    "runtime-main.js.map": "/color_generator/static/js/runtime-main.06e54908.js.map",
-    "static/js/2.b85e9873.chunk.js": "/color_generator/static/js/2.b85e9873.chunk.js",
-    "static/js/2.b85e9873.chunk.js.map": "/color_generator/static/js/2.b85e9873.chunk.js.map",
-    "index.html": "/color_generator/index.html",
-    "static/css/main.29fb400f.chunk.css.map": "/color_generator/static/css/main.29fb400f.chunk.css.map",
-    "static/js/2.b85e9873.chunk.js.LICENSE.txt": "/color_generator/static/js/2.b85e9873.chunk.js.LICENSE.txt"
+    "main.css": "/ra-color-generator/static/css/main.29fb400f.chunk.css",
+    "main.js": "/ra-color-generator/static/js/main.467f33a9.chunk.js",
+    "main.js.map": "/ra-color-generator/static/js/main.467f33a9.chunk.js.map",
+    "runtime-main.js": "/ra-color-generator/static/js/runtime-main.7585a244.js",
+    "runtime-main.js.map": "/ra-color-generator/static/js/runtime-main.7585a244.js.map",
+    "static/js/2.b85e9873.chunk.js": "/ra-color-generator/static/js/2.b85e9873.chunk.js",
+    "static/js/2.b85e9873.chunk.js.map": "/ra-color-generator/static/js/2.b85e9873.chunk.js.map",
+    "index.html": "/ra-color-generator/index.html",
+    "static/css/main.29fb400f.chunk.css.map": "/ra-color-generator/static/css/main.29fb400f.chunk.css.map",
+    "static/js/2.b85e9873.chunk.js.LICENSE.txt": "/ra-color-generator/static/js/2.b85e9873.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.06e54908.js",
+    "static/js/runtime-main.7585a244.js",
     "static/js/2.b85e9873.chunk.js",
     "static/css/main.29fb400f.chunk.css",
-    "static/js/main.f3263945.chunk.js"
+    "static/js/main.467f33a9.chunk.js"
   ]
 }
