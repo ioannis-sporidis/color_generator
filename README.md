@@ -1,6 +1,6 @@
 # Color Generator
 
-Click [here](https://ioannis-sporidis.github.io/ra-color-generator/) to check out the app
+Check out the app [here](https://ioannis-sporidis.github.io/ra-color-generator/)
 
 ## Dependencies
 
